@@ -4,7 +4,7 @@ pipeline {
     stage('inicio') {
       steps {
         echo 'HOLA DESDE STAGE INICIO'
-        sh 'sh sudo apt-get update'
+        sh 'sudo apt-get update'
       }
     }
     stage('TEST2') {
